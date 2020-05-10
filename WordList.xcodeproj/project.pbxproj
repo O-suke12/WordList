@@ -15,6 +15,14 @@
 		537E7BA7246157DC008F579A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537E7BA5246157DC008F579A /* LaunchScreen.storyboard */; };
 		537E7BB2246157DC008F579A /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BB1246157DC008F579A /* WordListTests.swift */; };
 		537E7BBD246157DC008F579A /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BBC246157DC008F579A /* WordListUITests.swift */; };
+		537E7BCE24615804008F579A /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 537E7BCB24615804008F579A /* word_blank.png */; };
+		537E7BCF24615804008F579A /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 537E7BCC24615804008F579A /* fin.png */; };
+		537E7BD024615804008F579A /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 537E7BCD24615804008F579A /* title_logo.png */; };
+		537E7BD224617BB5008F579A /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BD124617BB5008F579A /* QuestionViewController.swift */; };
+		537E7BD424617BCA008F579A /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BD324617BCA008F579A /* FinishViewController.swift */; };
+		537E7BD824617C02008F579A /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BD724617C02008F579A /* AddViewController.swift */; };
+		537E7BDA24617C59008F579A /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BD924617C59008F579A /* ListTableViewController.swift */; };
+		537E7BDC2465620D008F579A /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E7BDB2465620D008F579A /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		537E7BB8246157DC008F579A /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		537E7BBC246157DC008F579A /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		537E7BBE246157DC008F579A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537E7BCB24615804008F579A /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		537E7BCC24615804008F579A /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		537E7BCD24615804008F579A /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		537E7BD124617BB5008F579A /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		537E7BD324617BCA008F579A /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		537E7BD724617C02008F579A /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		537E7BD924617C59008F579A /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		537E7BDB2465620D008F579A /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		537E7B99246157DA008F579A /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				537E7BCA24615804008F579A /* WordList素材 */,
 				537E7B9A246157DA008F579A /* AppDelegate.swift */,
 				537E7B9C246157DA008F579A /* SceneDelegate.swift */,
 				537E7B9E246157DA008F579A /* ViewController.swift */,
@@ -106,6 +123,11 @@
 				537E7BA3246157DC008F579A /* Assets.xcassets */,
 				537E7BA5246157DC008F579A /* LaunchScreen.storyboard */,
 				537E7BA8246157DC008F579A /* Info.plist */,
+				537E7BD124617BB5008F579A /* QuestionViewController.swift */,
+				537E7BD324617BCA008F579A /* FinishViewController.swift */,
+				537E7BD724617C02008F579A /* AddViewController.swift */,
+				537E7BD924617C59008F579A /* ListTableViewController.swift */,
+				537E7BDB2465620D008F579A /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -126,6 +148,16 @@
 				537E7BBE246157DC008F579A /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		537E7BCA24615804008F579A /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				537E7BCB24615804008F579A /* word_blank.png */,
+				537E7BCC24615804008F579A /* fin.png */,
+				537E7BCD24615804008F579A /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537E7BCE24615804008F579A /* word_blank.png in Resources */,
+				537E7BD024615804008F579A /* title_logo.png in Resources */,
 				537E7BA7246157DC008F579A /* LaunchScreen.storyboard in Resources */,
 				537E7BA4246157DC008F579A /* Assets.xcassets in Resources */,
+				537E7BCF24615804008F579A /* fin.png in Resources */,
 				537E7BA2246157DA008F579A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				537E7BD424617BCA008F579A /* FinishViewController.swift in Sources */,
+				537E7BDC2465620D008F579A /* ListTableViewCell.swift in Sources */,
 				537E7B9F246157DA008F579A /* ViewController.swift in Sources */,
+				537E7BD824617C02008F579A /* AddViewController.swift in Sources */,
 				537E7B9B246157DA008F579A /* AppDelegate.swift in Sources */,
+				537E7BD224617BB5008F579A /* QuestionViewController.swift in Sources */,
 				537E7B9D246157DA008F579A /* SceneDelegate.swift in Sources */,
+				537E7BDA24617C59008F579A /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
